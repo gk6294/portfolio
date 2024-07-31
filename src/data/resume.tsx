@@ -2,8 +2,8 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, HammerIcon, FolderKanban, MessageCircleMore, CodeXmlIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Hi, I'm CM 👋",
-  initials: "CM",
+  name: "Hi, I'm Barton 👋",
+  initials: "Barton",
   url: "https://www.google.com",
   location: "Hong Kong",
   locationLink: "https://www.google.com/maps/place/hong_kong",
@@ -32,8 +32,6 @@ export const DATA = {
     "Typescript",
     "Next.js",
     "Node.js",
-    "Medusa.js",
-    "Tailwind CSS",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -42,8 +40,8 @@ export const DATA = {
     { href: "#codings", icon: CodeXmlIcon, label: "Codings" },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "bartonchik05@gmail.com",
+    tel: "+85251386068",
     social: {
       Whatsapp: {
         name: "Whatsapp",
@@ -54,7 +52,7 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/cm-chik/",
+        url: "https://www.linkedin.com/in/skcovn/",
         icon: Icons.linkedin,
 
         navbar: true,
@@ -70,16 +68,16 @@ export const DATA = {
   },
   work: [
     {
-      company: "DigiFly",
+      company: "17Live",
       href: "",
       badges: [],
-      location: "Remote",
-      title: "Product Owner",
-      logoUrl: "/digifly.png",
+      location: "HQ",
+      title: "Product Operation Lead",
+      logoUrl: "/17.png",
       start: "Oct 2021",
       end: "Present",
       description:
-        "Spearheaded digital transformation, marketing, webpage and application development services for diverse clients in Hong Kong, engage with stakeholders to gather detailed requirements for new features and enhancements.",
+        "Oversees and responsible for non-event revenue and product rollout, improvment and enhancement across TW, SEA and HK. Identify customer segments and needs for unique selling points for product suite by continuously monitor and analyze app performance metrics like user engagement, retention, and conversion rates.",
     },
     {
       company: "WeLab Bank",
@@ -161,71 +159,6 @@ export const DATA = {
     },
   ],
   projects: [
-    {
-      title: "Digital Transformation project",
-      href: "http://www.shconrad.com/en/home-english/",
-      dates: "2021 - Present",
-      active: true,
-      description:
-        "A comprehensive digital solution and digital transformation including migrating email service, website development, lokalization, UX/UI design, and digital strategy consulting.",
-      technologies: [
-        "Next.js", "CSS", "wordpress", "sendgrid",
-      ],
-      links: [
-        {
-          type: "Client",
-          href: "https://www.shconrad.com",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/proj_shconrad.png",
-      video:
-        "",
-    },
-    {
-      title: "eCommerce platform",
-      href: "http://www.medusajs.com/",
-      dates: "2023 - Present",
-      active: true,
-      description:
-        "Develop ecommerce platform for small and medium enterprise using Medusa.js and tailwind CSS, including product management, order management, payment gateway, and more.",
-      technologies: [
-        "Medusa.js",
-        "Tailwind CSS",
-      ],
-      links: [
-        {
-          type: "Medusa Website",
-          href: "https://medusajs.com",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/proj_medusa.png",
-      video:
-        "",
-    },
-    {
-      title: "Online Booking platform",
-      href: "http://www.naturalyogastudio.com/",
-      dates: "2021 - 2022",
-      active: true,
-      description:
-        "Develop online booking system for small and medium enterprise using typescript and css, including booking, order, payment, and management system.",
-      technologies: [
-        "Typescript",
-        "CSS",
-      ],
-      links: [
-        {
-          type: "Client",
-          href: "https://naturalyogastudio.com",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/proj_natural.png",
-      video:
-        "",
-    },
     {
       title: "Welab Bank Personal instalment Loan",
       href: "https://www.welab.bank/en/feature/personal_instalment_loan/",
