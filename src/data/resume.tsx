@@ -42,8 +42,8 @@ export const DATA = {
     { href: "#codings", icon: CodeXmlIcon, label: "Codings" },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "cmchik21@gmail.com",
+    tel: "+85251386068",
     social: {
       Whatsapp: {
         name: "Whatsapp",
@@ -210,7 +210,7 @@ export const DATA = {
       dates: "2021 - 2022",
       active: true,
       description:
-        "Develop online booking system for small and medium enterprise using typescript and css, including booking, order, payment, and management system.",
+        "Developed online booking system for small and medium enterprise using typescript and css, including booking, order, payment, and management system.",
       technologies: [
         "Typescript",
         "CSS",
@@ -277,7 +277,7 @@ export const DATA = {
       video: "",
     },
     {
-      title: "MIDAS(車保e-check)",
+      title: "MIDAS (車保e-check)",
       href: "https://www.youtube.com/watch?v=9z9u3SXv7Eg&t=1s",
       dates: "2018",
       active: true,
